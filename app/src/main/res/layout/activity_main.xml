@@ -12,7 +12,7 @@
         android:layout_height="100dp"
         android:src="@drawable/img_josh"
         android:layout_marginTop="250dp"
-        app:layout_constraintBottom_toTopOf="@+id/textName"
+        app:layout_constraintBottom_toTopOf="@+id/text_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -21,24 +21,24 @@
         android:id="@+id/text_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rizky Gustiantoro"
+        android:text="@string/rizky_gustiantoro"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textUniv"
+        app:layout_constraintBottom_toTopOf="@+id/text_univ"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/img_gustian" />
 
     <TextView
-        android:id="@+id/text_Univ"
+        android:id="@+id/text_univ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="UPN Veteran Yogyakarta"
+        android:text="@string/upn_veteran_yogyakarta"
         android:textSize="15sp"
         android:layout_marginBottom="320dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textName" />
+        app:layout_constraintTop_toBottomOf="@+id/text_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
